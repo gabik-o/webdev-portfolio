@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Search</title>
+    </head>
+    <body>
+      <div class= "nav">
+        <div class="nav1"><img class="img-advanced" src= "Foogle.webp"></div>
+        <div class= "nav2"><a href="index.html">Foogle Search</a></div>
+      </div>
+      <div class="appbar">Advanced Search</div>
+      <div>
+        <h4>Find pages with...</h4>
+        <form id= "advanced-form" action="https://google.com/search">
+          <div class="label">
+            <label>all these words:</label>
+            <label>this exact word or phrase:</label>
+            <label>any of these words:</label>
+            <label>none of these words:</label>
+          </div>
+          <div class="search-field">
+            <input type="text" name="as_q" class= "advanced-search-bar">
+            <input type="text" name="as_epq" class= "advanced-search-bar">
+            <input type="text" name="as_oq" class= "advanced-search-bar">
+            <input type="text" name="as_eq" class= "advanced-search-bar">
+          </div>
+        </form>
+        <div class= "button-right">
+            <input type="submit" form="advanced-form" id="advanced-search" value="Advanced Search">
+        </div>
+        </div>
+    </body>
+</html>
